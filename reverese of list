@@ -1,0 +1,23 @@
+3 5
+firstelement:61 length:4
+3 st
+start:0 end:0 temp:0
+one:1 zero:0
+
+st:7 firstelement start
+2 length one end
+1 firstelement end end
+7 start start1
+7 end end1
+jump:5 start1 end1 continue
+3 halt
+continue:7 start1 start2
+7 end1 end2
+7 start1:0 temp
+7 end1:0 start2:0
+7 temp end2:0
+1 start1 one start1
+2 end1 one end1
+3 jump
+halt:9
+2 3 4 5 
